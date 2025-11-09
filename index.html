@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Football_styles.css">
+    </head>
+    <body>
+        <div class="Teams">
+            <div class="Home">
+                <h1>Real Madrid</h1>
+                <div id="addscores_H">
+                <h1 id="homescore">0</h1>
+                <div id="homebuttons">
+                    <button id="add0_H">+0</button>
+                    <button id="add1_H" onclick="plus1_H()">+1</button>
+                    <button id="add3_H" onclick="plus3_H()">+3</button>
+                </div>    
+            </div>
+            </div>
+            <div class="GUEST">
+                <h1>Barcelona</h1>
+                <h1 id="guestscore">0</h1>
+                <div id="addscores_G">
+                    <button id="add0_G">+0</button>
+                    <button id="add1_G" onclick="plus1_G()">+1</button>
+                    <button id="add3_G" onclick="plus3_G()">+3</button>
+                </div>
+            </div>   
+            <button id="New" onclick="NEW()">New Season</button> 
+        </div>
+        <div class="scores">
+            
+            
+        </div>
+        
+        <script src="Football_script.js"></script>   
+    </body>
+</html>

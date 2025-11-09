@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "soreboard";
+    src: url(rounded_led_board-7.ttf);
+}
+body {
+    background-color: rgb(43, 0, 83);
+    
+}
+.Teams {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: x-large;
+}
+#homescore {
+    display: flex;
+    justify-content: space-around;
+    font-size: 100px;
+    color: red;
+    margin-top: 5px;
+}
+#homebuttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -50px;
+    font-size: xx-large;
+    
+}
+.scores {
+    display: flex;
+    justify-content: space-around;
+    font-size: 100px;
+    color: red;
+    margin-top: -100px;
+}    
+    
+    
+#homescore {
+    margin-top: -15px;
+    font-family: "scoreboard";
+    background-color: black;
+    padding: 50px 100px;
+}
+#guestscore {
+    margin-top: -20px;
+    color: red;
+    font-size: 100px;
+    background-color: black;
+    padding: 50px 100px;
+}
+#add0_H {
+    color: whitesmoke;
+    margin-top: 10px;
+    padding: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.877);
+    background-color: rgb(43, 0, 83);;
+}
+#add1_H {
+    color: whitesmoke;
+    margin-top: 10px;
+    padding: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.877);
+    background-color: rgb(43, 0, 83);
+}
+#add3_H {
+    color: whitesmoke;
+    margin-top: 10px;
+    padding: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.877);
+    background-color: rgb(43, 0, 83);
+}
+#add0_H:hover {
+    background-color: red;
+}
+#add1_H:hover {
+    background-color: yellow;
+}
+#add3_H:hover {
+    background-color: green;
+}
+#addscores_G {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -50px;
+    font-size: xx-large;
+}
+#add0_G {
+    color: whitesmoke;
+    margin-top: 10px;
+    padding: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.877);
+    background-color: rgb(43, 0, 83);;
+}
+#add1_G {
+    color: whitesmoke;
+    margin-top: 10px;
+    padding: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.877);
+    background-color: rgb(43, 0, 83);
+}
+#add3_G {
+    color: whitesmoke;
+    margin-top: 10px;
+    padding: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.877);
+    background-color: rgb(43, 0, 83);
+}
+#add0_G:hover {
+    background-color: red;
+}
+#add1_G:hover {
+    background-color: yellow;
+}
+#add3_G:hover {
+    background-color: green;
+}
+#New {
+    background-color: red;
+    font-weight: bold;
+    color: white;
+}
+#New:hover {
+    background-color: brown;
+}
+
